@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header Area */
+
+.Header{
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex: 1;
+    padding-left: 80px;
+    
+}
+
+.navBar{
+    background-color: rgb(159,197,248);
+    display: flex;
+    height: 60px;
+    color: white;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.cities{
+    display: flex;
+    gap: 30px;
+    flex: 1;
+    cursor: pointer;
+}
+
+.cityTemp{
+    display: flex;
+    font-family: sans-serif;
+    border-bottom: black 2px solid;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+}
+
+/* .temperture{
+    
+} */
+
+.tempertureSelect{
+    border-radius: black 7px solid;
+    cursor: pointer;
+}
+
+.tempertureSpacing{
+    display: flex;
+    gap: 20px;
+}
+
+/* Middle Page */
+
+.MiddlePageContainer{
+    display: flex;
+    text-align: center;
+    font-family: sans-serif;
+    height: 400px;
+    padding: 20px;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.middlePageSpacing{
+    display: flex;
+    flex-direction: column;
+    border: black 3px solid;
+    background-color: rgb(238,238,238);
+    width: 212px;
+    padding-top: 30px;
+}
+
+.picture-radius{
+    border-radius: 300px;
+    margin: 30px; 
+}
+
+.degreeFlex{
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    padding-left: 40px;
+
+}
+
+
+/* pop up message */
+#popupBox{
+    border: black 2px solid;
+    display: flex;
+    position: fixed;
+    gap: 100px;
+    width: 977px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 4px 4px 4px black;
+    padding: 10px;
+    font-family: cursive;
+}
+
+#accept-btn{
+    background-color: rgb(159,197,248);
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: large;
+    width: 200px;
+    box-shadow: rgb(0, 0, 0) 3px 3px 1px 1px;
+    padding: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+

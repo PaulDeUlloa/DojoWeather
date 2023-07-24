@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navBar">
+        <h1 class="Header">Dojo Weather</h1>
+        <ul class="cities">
+            <h3 onclick="alert('Loading weather report...')"> Chicago</h3>
+            <h3 onclick="alert('Loading weather report...')"> Burbank</h3>
+            <h3 onclick="alert('Loading weather report...')"> Dallas</h3>
+
+        </ul>
+    </div>
+    <div class="cityTemp">
+        <h2>San Jose</h2>
+        <div class="tempertureSpacing">
+            <h4 class="temperture">show temperture in</h4>
+            <select name="tempertureSelect" onChange="convert(this)">
+                <option>°C</option>
+                <option>°F</option>
+            </select>
+        </div>
+    </div>
+    <div class="MiddlePageContainer">
+        <div class="middlePageSpacing">
+            <h3>Today</h3>
+            <img class="picture-radius" src="Images/some_rain.png" alt="some-rain">
+            <h3>some rain</h3>
+            <div class="degreeFlex">
+                <h2 class="degreeHigh" id="temp1">24°</h2>
+                <h2 class="degreeLow" id="temp2">18°</h2>
+            </div>
+        </div>
+        <div class="middlePageSpacing">
+            <h3>Tomorrow</h3>
+            <img class="picture-radius" src="Images/some_sun.png" alt="some-sun">
+            <h3>some sun</h3>
+            <div class="degreeFlex">
+                <h2 class="degreeHigh" id="temp3">27°</h2>
+                <h2 class="degreeLow" id="temp4">19°</h2>
+            </div>
+        </div>
+        <div class="middlePageSpacing">
+            <h3>Friday</h3>
+            <img class="picture-radius" src="Images/some_clouds.png" alt="some-cloud">
+            <h3>some clouds</h3>
+            <div class="degreeFlex">
+                <h2 class="degreeHigh" id="temp5">21°</h2>
+                <h2 class="degreeLow" id="temp6">16°</h2>
+            </div>
+        </div>
+        <div class="middlePageSpacing">
+            <h3>Saturday</h3>
+            <img class="picture-radius" src="Images/some_sun.png" alt="some-sun">
+            <h3>some sun</h3>
+            <div class="degreeFlex">
+                <h2 class="degreeHigh" id="temp7">26°</h2>
+                <h2 class="degreeLow" id="temp8">21°</h2>
+            </div>
+        </div>
+    </div>
+    <div id="popupBox" onclick="hide(this)">
+        <img src="Images/cookie.png" alt="cookie-icon">
+        <div class="pop-up">
+            <h3> Stop! Cookie time</h3>
+            <span>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media
+                features and to analyze our traffic. <a href="#">Read more...</a></span>
+        </div>
+        <button id="accept-btn">I Acccept</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
