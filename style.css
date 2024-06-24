@@ -13,7 +13,7 @@ body{
 
 .Header{
     font-family: sans-serif;
-    color: white;
+    color: rgb(132, 70, 70);
     display: flex;
     flex: 1;
     padding-left: 80px;
